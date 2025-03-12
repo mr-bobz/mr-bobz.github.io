@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>My experiments with Linux!</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Linux Distros</h2>
+            <p>After trying various distros, finally found something that works!</p>
+            <table style="border: 1px solid grey;">
+                <thead style="background-color: lightgrey;">
+                    <tr style="text-align: left;">
+                        <th>Distro</th>
+                        <th>Good</th>
+                        <th>Bad</th>
+                    </tr>
+                </thead>
+                <tbody style="background-color: lightyellow;">
+                    <tr>
+                        <td>Elementary OS</td>
+                        <td>Sleek looks, Mac like!</td>
+                        <td>Software Support not great</td>
+                    </tr>
+                    <tr>
+                        <td>Pop OS</td>
+                        <td>Quick install etc</td>
+                        <td>Couldn't get multimonitor to work via dock, driver install failed</td>
+                    </tr>
+                    <tr>
+                        <td>Ubuntu Budgie</td>
+                        <td>Clean minimalist desktop env</td>
+                        <td>Multimonitor finally works with DisplayLink driver setup, see below</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr />
+        <section>
+            <h2>* Linux Tweaks</h2>
+            <p>Some tweaks that I have done to make my Linux experience better!</p>
+            <h3>Multimonitor Support via Dock</h3>
+            <p>Dock used: Lenovo Type 40AF 4K DisplayLink</p>
+            <a href="https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu"
+                target="_blank">DisplayLink Driver for Ubuntu</a>
+        </section>
+        <hr />
+        <section>
+            <h2>* Linux Issues</h2>
+            <p>Some issues I ran into and fixes!</p>
+            <h3>Lock Screen (Super + L) not working</h3>
+            <p>Fix: Disable 'Fractional Scaling' in Display settings!</p>
+            <a href="https://community.frame.work/t/responded-screen-lock-not-working-after-clean-setup-of-ubuntu-budgie/53133/3"
+                target="_blank">Screen lock not working after clean setup of Ubuntu Budgie</a>
+            <h3>Fingerprint Scanner not working</h3>
+            <p>Fix: No working solution available for my laptop model: Lenovo E15 Gen2</p>
+            <a href="https://gist.github.com/d-k-bo/15e53eab53e2845e97746f5f8661b224" target="_blank">Install
+                experimental driver for the goodix 55b4 fingerprint sensor on Ubuntu</a>
+            <a href="https://support.lenovo.com/au/en/downloads/ds560935-elan-fingerprint-driver-for-linux-thinkpad-e14-gen-4-thinkpad-e15-gen-4"
+                target="_blank">ELAN FingerPrint Driver for Linux - ThinkPad E14 Gen 4, ThinkPad E15 Gen 4</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 - 2203</p>
+    </footer>
+</body>
+
+</html>
+
+</html>
